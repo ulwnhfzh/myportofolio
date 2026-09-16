@@ -28,7 +28,7 @@ export const PROJECTS = [
       "shadcn/ui",
     ],
     link: "https://example.com",
-    github: "https://github.com/your-github/project-one",
+    github: "https://github.com/ulwnhfzh/BussinesMatte",
     images: {
       hero: "/placeholder-image.png",
       gallery: [

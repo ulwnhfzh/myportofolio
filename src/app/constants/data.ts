@@ -13,9 +13,12 @@ export const ABOUT_ME = {
   location: "Karawang, Indonesia",
   email: "ulwanhafizh499@gmail.com",
   description: [
-    "Hey, there! I'm a developer who loves building products that people actually use. Write a couple of sentences here about who you are, what you do, and what you're currently working on.",
+    "Hey, there! I'm a developer who loves building products that people actually use.",
+    "I'M an undergraduate student who is serious abaout web development. I love building applications that people actually use, not just class assignments that get abandoned after submission. most of the project I work on are built with Laravel.",
     "Use this space to talk about your experience, the kinds of problems you enjoy solving, and the technologies you reach for most often.",
+    "Even though  I'm still college, I'm used to working on real project — from academic assignments, organizations, to personal project. I enjoy solving problem that directly affect the user experience, from cleaning up messy flows to performance optimization. The thecnologies I'm most confident in are Laravel and Tailwind CSS",
     "Wrap up with what you're excited about right now — side projects, open source, or whatever you're learning next.",
+    "Lately, I've been working on side projects that are also built with Laravel, and I'm diving deeper into the Laravel ecosystem to prepare myself for the industry.",
   ],
   profileImage: "/profile.png",
   profileGif: "/profile.gif",
@@ -23,7 +26,7 @@ export const ABOUT_ME = {
 
 export const USER_NAMES = {
   githubUsername: "ulwnhfzh",
-  linkedinUsername: "your-linkedin",
+  linkedinUsername: "muhammad-ulwan-hafizh-hibatullah-65b852437",
   instagramUsername: "caidennnx",
   // cal.com username + event slug used by the "schedule a meeting" button
   calUsername: "Ulwan",
@@ -33,7 +36,7 @@ export const SOCIAL_LINKS = {
   github: `https://github.com/${USER_NAMES.githubUsername}`,
   linkedin: `https://linkedin.com/in/${USER_NAMES.linkedinUsername}`,
   instagram: `https://instagram.com/${USER_NAMES.instagramUsername}`,
-  resume: "/resume.pdf",
+  resume: "/cv_laramaran.pdf",
   email: `mailto:${ABOUT_ME.email}?subject=Message%20from%20Website&body=Hi!%20I%27m...`,
 };
 
@@ -54,31 +57,20 @@ export const SKILLS = [
   "js",
   "ts",
   "react",
-  "nextjs",
   "vue",
   "nuxtjs",
   "tailwind",
   // Backend
   "nodejs",
-  "express",
-  "graphql",
-  "prisma",
   // Databases
-  "mongodb",
   "mysql",
-  "postgresql",
-  "firebase",
-  "supabase",
   // Languages
   "c",
-  "cpp",
-  "java",
   "py",
   // Tools & DevOps
   "git",
   "github",
   "vscode",
-  "postman",
   "vite",
   "npm",
   "figma",
@@ -115,23 +107,23 @@ export const EXPERIENCE = [
 
 export const EDUCATION = [
   {
-    degree: "B.Tech in Computer Science Engineering",
-    institution: "Your University",
-    institutionLink: "https://example.com/",
-    period: "2021 - 2025",
-    score: "8.5 CGPA",
+    degree: "B.Tech of Informatics Engineering",
+    institution: "Buana Perjuangan University Karawang",
+    institutionLink: "https://ubpkarawang.ac.id/",
+    period: "2024 - present",
+    score: "GPA: 3.21",
   },
 ];
 
 export const TESTIMONIALS = [
   {
-    name: "Jane Doe",
-    role: "CTO @ Company",
+    name: "Iqbal Rizki Nursyamsi",
+    role: "Founder @ Startup",
     content:
       "Add a short testimonial here. A couple of sentences from someone you've worked with about what it's like to collaborate with you works best.",
   },
   {
-    name: "John Smith",
+    name: "Firman Maulana",
     role: "Founder @ Startup",
     content:
       "Another testimonial. Keep these genuine and specific — mention the work you did together and the value you brought.",
