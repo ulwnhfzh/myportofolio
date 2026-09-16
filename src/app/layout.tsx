@@ -64,13 +64,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: ABOUT_ME.name,
-    description: `${ABOUT_ME.name}'s personal portfolio showcasing development skills, projects, and professional experience.`,
-    creator: `@${USER_NAMES.twitterUsername}`,
-    images: ["/opengraph-image.png"],
-  },
   robots: {
     index: true,
     follow: true,
@@ -157,9 +150,7 @@ export default function RootLayout({
                 sameAs: [
                   SOCIAL_LINKS.github,
                   SOCIAL_LINKS.linkedin,
-                  SOCIAL_LINKS.twitter,
                   SOCIAL_LINKS.instagram,
-                  SOCIAL_LINKS.peerlist,
                 ],
               },
               {
