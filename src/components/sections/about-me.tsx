@@ -19,19 +19,9 @@ const SOCIAL_BUTTONS = [
     icon: <Linkedin className="w-5 h-5" />,
   },
   {
-    href: SOCIAL_LINKS.twitter,
-    label: "X (Twitter)",
-    icon: <FaXTwitter className="w-5 h-5" />,
-  },
-  {
     href: SOCIAL_LINKS.instagram,
     label: "Instagram",
     icon: <FaInstagram className="w-5 h-5" />,
-  },
-  {
-    href: SOCIAL_LINKS.peerlist,
-    label: "Peerlist",
-    icon: <SiPeerlist className="w-5 h-5" />,
   },
   {
     href: SOCIAL_LINKS.resume,

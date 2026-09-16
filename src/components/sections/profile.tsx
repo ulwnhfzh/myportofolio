@@ -16,7 +16,7 @@ const useISTTime = () => {
   useEffect(() => {
     const updateTime = () => {
       const timeString = new Date().toLocaleTimeString("en-IN", {
-        timeZone: "Asia/Kolkata",
+        timeZone: "Asia/jakarta",
         hour12: false,
         hour: "2-digit",
         minute: "2-digit",

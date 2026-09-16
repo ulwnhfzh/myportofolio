@@ -282,28 +282,6 @@ const Contact = () => {
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
-
-                {/* Twitter */}
-                <a
-                  href={SOCIAL_LINKS.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 btn flex items-center justify-center"
-                  title="Twitter"
-                >
-                  <FaXTwitter className="w-5 h-5" />
-                </a>
-
-                {/* Peerlist */}
-                <a
-                  href={SOCIAL_LINKS.peerlist}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 btn flex items-center justify-center"
-                  title="Peerlist"
-                >
-                  <SiPeerlist className="w-5 h-5" />
-                </a>
               </div>
             </div>
           </div>

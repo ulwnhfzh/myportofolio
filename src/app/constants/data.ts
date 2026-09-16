@@ -8,34 +8,30 @@ const DOMAIN = "yourdomain.com";
 export const BASE_URL = `https://${DOMAIN}`;
 
 export const ABOUT_ME = {
-  name: "Your Name",
-  title: "Full Stack Developer",
-  location: "City, India",
-  email: "you@example.com",
+  name: "Muhammad Ulwan Hafizh Hibatullah",
+  title: "Web Development",
+  location: "Karawang, Indonesia",
+  email: "ulwanhafizh499@gmail.com",
   description: [
     "Hey, there! I'm a developer who loves building products that people actually use. Write a couple of sentences here about who you are, what you do, and what you're currently working on.",
     "Use this space to talk about your experience, the kinds of problems you enjoy solving, and the technologies you reach for most often.",
     "Wrap up with what you're excited about right now — side projects, open source, or whatever you're learning next.",
   ],
-  profileImage: "/placeholder-avatar.png",
-  profileGif: "/placeholder-avatar.png",
+  profileImage: "/profile.png",
+  profileGif: "/profile.gif",
 };
 
 export const USER_NAMES = {
-  githubUsername: "your-github",
+  githubUsername: "ulwnhfzh",
   linkedinUsername: "your-linkedin",
-  twitterUsername: "your-twitter",
-  peerlistUsername: "your-peerlist",
-  instagramUsername: "your-instagram",
+  instagramUsername: "caidennnx",
   // cal.com username + event slug used by the "schedule a meeting" button
-  calUsername: "your-cal-username",
+  calUsername: "Ulwan",
 };
 
 export const SOCIAL_LINKS = {
   github: `https://github.com/${USER_NAMES.githubUsername}`,
   linkedin: `https://linkedin.com/in/${USER_NAMES.linkedinUsername}`,
-  peerlist: `https://peerlist.io/${USER_NAMES.peerlistUsername}`,
-  twitter: `https://x.com/${USER_NAMES.twitterUsername}`,
   instagram: `https://instagram.com/${USER_NAMES.instagramUsername}`,
   resume: "/resume.pdf",
   email: `mailto:${ABOUT_ME.email}?subject=Message%20from%20Website&body=Hi!%20I%27m...`,
